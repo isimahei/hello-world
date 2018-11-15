@@ -1,2 +1,2 @@
 # hello-world
-Beginner Repository
+print("Goodbye, World!")
