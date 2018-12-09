@@ -1,1 +1,1 @@
-Welcome to Isimah Emmanuel GitHub ,Haver a great day ahead
+Welcome to Isimah Emmanuel GitHub ,Have a great day ahead
