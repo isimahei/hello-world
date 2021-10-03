@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+requests = "*"
+botocore = "*"
+aws-gameday-quests = {file = "https://ee-assets-prod-us-east-1.s3.amazonaws.com/modules/9c0e89820b864addaed45ec2f5440379/v3/aws_gameday_quests.zip"}
+
+[dev-packages]
+
+[requires]
+python_version = "3"

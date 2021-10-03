@@ -1,0 +1,22 @@
+[
+    {
+        "quest-id": "2cbc15f3-964a-409d-bd9c-45f29d1debfa",
+        "quest-enabled": false,
+        "quest-central-status": "DISABLED",
+        "quest-name": "Icebreaker Quest",
+        "quest-description": "An introductory Quest to get acclimated with the AWS GameDay experience",
+        "quest-difficulty": 1,
+        "quest-use-case": "[]",
+        "quest-services": "[\"AWS CloudShell\", \"Systems Manager\", \"IAM\", \"STS\"]",
+        "quest-duration": "20",
+        "quest-duration-total": 0,
+        "quest-samples": 0,
+        "quest-dependencies": "",
+        "quest-central-cfn": "central_cfn.yaml",
+        "quest-team-cfn-enable": "team_enable_cfn.yaml",
+        "quest-team-cfn-activate": "",
+        "quest-hints-file": "hints.json",
+        "quest-readme": "readme.md",
+        "quest-base-points": 5000
+    }
+]
