@@ -1,0 +1,36 @@
+[
+    {
+        "key": "cloudshell_hint1",
+        "label": "Having difficulty finding CloudShell?",
+        "description": "If you're stuck on this challenge, click on the Activate Hint button to get some guidance on how to do all of the things.",
+        "value": "Ensure that you have navigated to your team's AWS Console. Then click on 'Services' in the upper left and find 'CloudShell' under 'Developer Tools'",
+        "dashboard-index": 2,
+        "cost": 0,
+        "enable-offset": 30,
+        "disable-offset": 0,
+        "automatic": true
+    },
+    {
+        "key": "role_hint1",
+        "label": "Are you having difficulty finding the IAM role name?",
+        "description": "If you're stuck on this challenge, click on the Activate Hint button to learn one way to solve it (there are many!)",
+        "value": "In your CloudShell console, try typing 'aws sts get-caller-identity'. Find the name between the slashes after 'assumed-role', for example if you see  arn:aws:sts::<account number>:assumed-role/<RoleName>/MasterKey, the answer is <RoleName>",
+        "dashboard-index": 22,
+        "cost": 0,
+        "enable-offset": 600,
+        "disable-offset": 0,
+        "automatic": true
+    },
+        {
+        "key": "parameter_hint1",
+        "label": "Are you having difficulty finding the Parameter value?",
+        "description": "If you're stuck on this challenge, click on the Activate Hint button to learn one way to solve it (there are many!)",
+        "value": "In your CloudShell console, try typing 'aws ssm get-parameter --name /GameDay/IcebreakerParameter'. Find the 'Value' field for the answer!'",
+        "dashboard-index": 32,
+        "cost": 0,
+        "enable-offset": 600,
+        "disable-offset": 0,
+        "automatic": true
+    }
+
+]

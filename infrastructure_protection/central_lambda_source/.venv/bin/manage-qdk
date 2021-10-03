@@ -1,0 +1,8 @@
+#!/Users/isimahei/AWS-GameDay-Quests/quests/infrastructure_protection/central_lambda_source/.venv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from aws_gameday_quests.manage_qdk import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
